@@ -39,7 +39,7 @@ def inputPlayerLetter():
 def whoGoesFirst():
     # randomly choose the player who goes first.
 
-    if random.randit(0,1) == 0:
+    if random.randint(0,1) == 0:
         return 'computer'
     else: 
         return 'player'
